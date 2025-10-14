@@ -1,27 +1,26 @@
 myset = {1, 2, 2, 3, 4, 4}
-print(myset)     # Output: {1, 2, 3, 4}
-print(type(myset))
+print(f" set before operation :{myset}")     # Output: {1, 2, 3, 4}
+
+myset.clear()
+print(myset)
 
 
-for i in myset:
-    print(i)
 
 
-
-#
 # myset.add("orange")
-# print(myset)
+# print(f"after add operation : {myset}")
 #
+# myset.pop()
+# print(f"after pop operation {myset}")
+
 # myset.update(["grape", "mango"])
 # print(myset)
+
+
 #
-# # myset.remove("banana") #Error not found
-# # print(myset)
+
 # # myset.discard("banana")
 # # print(myset)
 #
-# # myset.pop()
-# # print(myset)
+
 #
-# myset.clear()
-# print(myset)
