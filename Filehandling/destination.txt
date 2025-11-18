@@ -1,0 +1,3 @@
+Hello, this is Python File Handling.
+Writing data to a file is easy!
+Adding new line without deleting old data.
