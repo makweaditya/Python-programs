@@ -6,13 +6,13 @@ Employee = {
 }
 df2 = pd.DataFrame(Employee)
 print(df2)
-
+print('---------------')
 df3 = pd.DataFrame([['Ram',50000,'security']],columns=['name','salary','post'])
 print(df3)
-
+print('----------------------')
 df2 = pd.concat([df2,df3])
-
+#
 print(df2)
-
+print('--------------')
 df2.drop([0], axis =0, inplace=True)
 print(df2)
