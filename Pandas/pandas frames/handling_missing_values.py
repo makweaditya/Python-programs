@@ -7,9 +7,9 @@ df = pd.DataFrame({
     'C': ['x', None, 'y', 'z']
 })
 print(df)
-# # print(df.isnull())
+print(df.isnull())
 # print(df.isnull().sum())
 # print(df.dropna())
-print(df.dropna(axis=1))
+# print(df.dropna(axis=1))
 
 print(df.fillna(0))

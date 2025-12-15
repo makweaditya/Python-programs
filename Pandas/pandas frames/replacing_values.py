@@ -6,4 +6,4 @@ df3 = pd.DataFrame({
 })
 print(df3)
 print('------------')
-print(df3.replace('Pune', 'PCMC'))
+print(df3.replace('Pune', 'Banglore'))

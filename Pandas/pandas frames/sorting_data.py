@@ -5,5 +5,6 @@ df4 = pd.DataFrame({
 })
 print(df4)
 print('--------')
-print(df4.sort_values(by='Marks'))
+# print(df4.sort_values(by='Marks'))
 print(df4.sort_values(by='Marks',ascending = False))
+

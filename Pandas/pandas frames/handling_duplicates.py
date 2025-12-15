@@ -6,4 +6,5 @@ df2 = pd.DataFrame({
 })
 print(df2)
 print('------------')
-print(df2.duplicated())
+# print(df2.duplicated())
+print(df2.drop_duplicates())
